@@ -138,6 +138,8 @@ function getDistanceTime() {
 
 // fungsi gagal di jalankan
 function showDetailProject() {
+  let starDate = document.getElementById('input-project-stardate').value;
+  let endDate = document.getElementById('input-project-enddate').value;
   let showDetail = document.getElementById('detail-project-content');
   showDetail.innerHTML = ` <div class="detail-project-title">
         <h1>Dumbways Web App</h1>
